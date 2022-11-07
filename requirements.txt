@@ -1,0 +1,2 @@
+tqdm>=4.64.1
+vaik-classification-pb-inference @ git+https://github.com/vaik-info/vaik-classification-pb-inference.git@22ec9ce332e78ad02321f7d837830a45b40fdf11
