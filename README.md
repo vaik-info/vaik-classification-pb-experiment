@@ -20,6 +20,21 @@ python inference.py --input_saved_model_dir_path '~/output_model/2022-11-07-16-1
                 --output_json_dir_path '~/.vaik-mnist-detection-dataset/valid_inference'
 ```
 
+- input_image_dir_path
+  - example
+
+```shell
+.
+├── eight
+│   ├── valid_000000024.jpg
+│   ├── valid_000000034.jpg
+・・・
+│   └── valid_000001976.jpg
+├── five
+│   ├── valid_000000016.jpg
+・・・
+```
+
 #### Output
 - output_json_dir_path
   - example
