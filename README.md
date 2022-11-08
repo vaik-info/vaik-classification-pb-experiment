@@ -14,7 +14,7 @@ pip install -r requirements.txt
 ### Create json file
 
 ```shell
-python inference.py --input_saved_model_dir_path '~/output_model/2022-11-07-16-15-49/step-1000_batch-8_epoch-9_loss_0.0818_sparse_categorical_accuracy_0.9737_val_loss_0.0595_val_sparse_categorical_accuracy_0.9890' \
+python inference.py --input_saved_model_dir_path '~/output_model/' \
                 --input_classes_path '~/.vaik-mnist-detection-dataset/classes.txt' \
                 --input_image_dir_path '~/.vaik-mnist-detection-dataset/valid' \
                 --output_json_dir_path '~/.vaik-mnist-detection-dataset/valid_inference'
